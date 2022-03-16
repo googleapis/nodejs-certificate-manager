@@ -330,140 +330,140 @@ export namespace google {
                 namespace CertificateManager {
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|listCertificates}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#listCertificates}.
                      * @param error Error, if any
                      * @param [response] ListCertificatesResponse
                      */
                     type ListCertificatesCallback = (error: (Error|null), response?: google.cloud.certificatemanager.v1.ListCertificatesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|getCertificate}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#getCertificate}.
                      * @param error Error, if any
                      * @param [response] Certificate
                      */
                     type GetCertificateCallback = (error: (Error|null), response?: google.cloud.certificatemanager.v1.Certificate) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|createCertificate}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#createCertificate}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateCertificateCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|updateCertificate}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#updateCertificate}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateCertificateCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|deleteCertificate}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#deleteCertificate}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteCertificateCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|listCertificateMaps}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#listCertificateMaps}.
                      * @param error Error, if any
                      * @param [response] ListCertificateMapsResponse
                      */
                     type ListCertificateMapsCallback = (error: (Error|null), response?: google.cloud.certificatemanager.v1.ListCertificateMapsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|getCertificateMap}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#getCertificateMap}.
                      * @param error Error, if any
                      * @param [response] CertificateMap
                      */
                     type GetCertificateMapCallback = (error: (Error|null), response?: google.cloud.certificatemanager.v1.CertificateMap) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|createCertificateMap}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#createCertificateMap}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateCertificateMapCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|updateCertificateMap}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#updateCertificateMap}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateCertificateMapCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|deleteCertificateMap}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#deleteCertificateMap}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteCertificateMapCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|listCertificateMapEntries}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#listCertificateMapEntries}.
                      * @param error Error, if any
                      * @param [response] ListCertificateMapEntriesResponse
                      */
                     type ListCertificateMapEntriesCallback = (error: (Error|null), response?: google.cloud.certificatemanager.v1.ListCertificateMapEntriesResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|getCertificateMapEntry}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#getCertificateMapEntry}.
                      * @param error Error, if any
                      * @param [response] CertificateMapEntry
                      */
                     type GetCertificateMapEntryCallback = (error: (Error|null), response?: google.cloud.certificatemanager.v1.CertificateMapEntry) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|createCertificateMapEntry}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#createCertificateMapEntry}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateCertificateMapEntryCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|updateCertificateMapEntry}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#updateCertificateMapEntry}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateCertificateMapEntryCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|deleteCertificateMapEntry}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#deleteCertificateMapEntry}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type DeleteCertificateMapEntryCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|listDnsAuthorizations}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#listDnsAuthorizations}.
                      * @param error Error, if any
                      * @param [response] ListDnsAuthorizationsResponse
                      */
                     type ListDnsAuthorizationsCallback = (error: (Error|null), response?: google.cloud.certificatemanager.v1.ListDnsAuthorizationsResponse) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|getDnsAuthorization}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#getDnsAuthorization}.
                      * @param error Error, if any
                      * @param [response] DnsAuthorization
                      */
                     type GetDnsAuthorizationCallback = (error: (Error|null), response?: google.cloud.certificatemanager.v1.DnsAuthorization) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|createDnsAuthorization}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#createDnsAuthorization}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type CreateDnsAuthorizationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|updateDnsAuthorization}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#updateDnsAuthorization}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
                     type UpdateDnsAuthorizationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
                     /**
-                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|deleteDnsAuthorization}.
+                     * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#deleteDnsAuthorization}.
                      * @param error Error, if any
                      * @param [response] Operation
                      */
@@ -8591,35 +8591,35 @@ export namespace google {
         namespace Operations {
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|listOperations}.
+             * Callback as used by {@link google.longrunning.Operations#listOperations}.
              * @param error Error, if any
              * @param [response] ListOperationsResponse
              */
             type ListOperationsCallback = (error: (Error|null), response?: google.longrunning.ListOperationsResponse) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|getOperation}.
+             * Callback as used by {@link google.longrunning.Operations#getOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */
             type GetOperationCallback = (error: (Error|null), response?: google.longrunning.Operation) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
+             * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type DeleteOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
+             * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
              * @param error Error, if any
              * @param [response] Empty
              */
             type CancelOperationCallback = (error: (Error|null), response?: google.protobuf.Empty) => void;
 
             /**
-             * Callback as used by {@link google.longrunning.Operations|waitOperation}.
+             * Callback as used by {@link google.longrunning.Operations#waitOperation}.
              * @param error Error, if any
              * @param [response] Operation
              */

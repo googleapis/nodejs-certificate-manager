@@ -99,7 +99,7 @@
                         };
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|listCertificates}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#listCertificates}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef ListCertificatesCallback
                          * @type {function}
@@ -132,7 +132,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|getCertificate}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#getCertificate}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef GetCertificateCallback
                          * @type {function}
@@ -165,7 +165,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|createCertificate}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#createCertificate}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef CreateCertificateCallback
                          * @type {function}
@@ -198,7 +198,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|updateCertificate}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#updateCertificate}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef UpdateCertificateCallback
                          * @type {function}
@@ -231,7 +231,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|deleteCertificate}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#deleteCertificate}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef DeleteCertificateCallback
                          * @type {function}
@@ -264,7 +264,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|listCertificateMaps}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#listCertificateMaps}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef ListCertificateMapsCallback
                          * @type {function}
@@ -297,7 +297,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|getCertificateMap}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#getCertificateMap}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef GetCertificateMapCallback
                          * @type {function}
@@ -330,7 +330,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|createCertificateMap}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#createCertificateMap}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef CreateCertificateMapCallback
                          * @type {function}
@@ -363,7 +363,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|updateCertificateMap}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#updateCertificateMap}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef UpdateCertificateMapCallback
                          * @type {function}
@@ -396,7 +396,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|deleteCertificateMap}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#deleteCertificateMap}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef DeleteCertificateMapCallback
                          * @type {function}
@@ -429,7 +429,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|listCertificateMapEntries}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#listCertificateMapEntries}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef ListCertificateMapEntriesCallback
                          * @type {function}
@@ -462,7 +462,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|getCertificateMapEntry}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#getCertificateMapEntry}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef GetCertificateMapEntryCallback
                          * @type {function}
@@ -495,7 +495,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|createCertificateMapEntry}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#createCertificateMapEntry}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef CreateCertificateMapEntryCallback
                          * @type {function}
@@ -528,7 +528,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|updateCertificateMapEntry}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#updateCertificateMapEntry}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef UpdateCertificateMapEntryCallback
                          * @type {function}
@@ -561,7 +561,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|deleteCertificateMapEntry}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#deleteCertificateMapEntry}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef DeleteCertificateMapEntryCallback
                          * @type {function}
@@ -594,7 +594,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|listDnsAuthorizations}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#listDnsAuthorizations}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef ListDnsAuthorizationsCallback
                          * @type {function}
@@ -627,7 +627,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|getDnsAuthorization}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#getDnsAuthorization}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef GetDnsAuthorizationCallback
                          * @type {function}
@@ -660,7 +660,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|createDnsAuthorization}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#createDnsAuthorization}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef CreateDnsAuthorizationCallback
                          * @type {function}
@@ -693,7 +693,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|updateDnsAuthorization}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#updateDnsAuthorization}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef UpdateDnsAuthorizationCallback
                          * @type {function}
@@ -726,7 +726,7 @@
                          */
     
                         /**
-                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager|deleteDnsAuthorization}.
+                         * Callback as used by {@link google.cloud.certificatemanager.v1.CertificateManager#deleteDnsAuthorization}.
                          * @memberof google.cloud.certificatemanager.v1.CertificateManager
                          * @typedef DeleteDnsAuthorizationCallback
                          * @type {function}
@@ -21681,7 +21681,7 @@
                 };
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations|listOperations}.
+                 * Callback as used by {@link google.longrunning.Operations#listOperations}.
                  * @memberof google.longrunning.Operations
                  * @typedef ListOperationsCallback
                  * @type {function}
@@ -21714,7 +21714,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations|getOperation}.
+                 * Callback as used by {@link google.longrunning.Operations#getOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef GetOperationCallback
                  * @type {function}
@@ -21747,7 +21747,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations|deleteOperation}.
+                 * Callback as used by {@link google.longrunning.Operations#deleteOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef DeleteOperationCallback
                  * @type {function}
@@ -21780,7 +21780,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations|cancelOperation}.
+                 * Callback as used by {@link google.longrunning.Operations#cancelOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef CancelOperationCallback
                  * @type {function}
@@ -21813,7 +21813,7 @@
                  */
     
                 /**
-                 * Callback as used by {@link google.longrunning.Operations|waitOperation}.
+                 * Callback as used by {@link google.longrunning.Operations#waitOperation}.
                  * @memberof google.longrunning.Operations
                  * @typedef WaitOperationCallback
                  * @type {function}
