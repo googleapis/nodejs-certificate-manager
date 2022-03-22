@@ -362,7 +362,6 @@ describe('v1.CertificateManagerClient', () => {
         new protos.google.cloud.certificatemanager.v1.GetCertificateRequest()
       );
       request.name = '';
-      const expectedHeaderRequestParams = 'name=';
       const expectedError = new Error('The client has already been closed.');
       client.close();
       await assert.rejects(client.getCertificate(request), expectedError);
@@ -489,7 +488,6 @@ describe('v1.CertificateManagerClient', () => {
         new protos.google.cloud.certificatemanager.v1.GetCertificateMapRequest()
       );
       request.name = '';
-      const expectedHeaderRequestParams = 'name=';
       const expectedError = new Error('The client has already been closed.');
       client.close();
       await assert.rejects(client.getCertificateMap(request), expectedError);
@@ -620,7 +618,6 @@ describe('v1.CertificateManagerClient', () => {
         new protos.google.cloud.certificatemanager.v1.GetCertificateMapEntryRequest()
       );
       request.name = '';
-      const expectedHeaderRequestParams = 'name=';
       const expectedError = new Error('The client has already been closed.');
       client.close();
       await assert.rejects(
@@ -751,7 +748,6 @@ describe('v1.CertificateManagerClient', () => {
         new protos.google.cloud.certificatemanager.v1.GetDnsAuthorizationRequest()
       );
       request.name = '';
-      const expectedHeaderRequestParams = 'name=';
       const expectedError = new Error('The client has already been closed.');
       client.close();
       await assert.rejects(client.getDnsAuthorization(request), expectedError);

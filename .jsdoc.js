@@ -43,7 +43,7 @@ module.exports = {
     copyright: 'Copyright 2022 Google LLC',
     includeDate: false,
     sourceFiles: false,
-    systemName: '@google-cloud/certificatemanager',
+    systemName: '@google-cloud/certificate-manager',
     theme: 'lumen',
     default: {
       outputSourceFiles: false

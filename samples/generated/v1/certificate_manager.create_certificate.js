@@ -40,7 +40,7 @@ function main(parent, certificateId, certificate) {
   // const certificate = {}
 
   // Imports the Certificatemanager library
-  const {CertificateManagerClient} = require('@google-cloud/certificatemanager').v1;
+  const {CertificateManagerClient} = require('@google-cloud/certificate-manager').v1;
 
   // Instantiates a client
   const certificatemanagerClient = new CertificateManagerClient();

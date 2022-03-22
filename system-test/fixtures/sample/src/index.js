@@ -17,7 +17,7 @@
 // ** All changes to this file may be overwritten. **
 
 /* eslint-disable node/no-missing-require, no-unused-vars */
-const certificatemanager = require('@google-cloud/certificatemanager');
+const certificatemanager = require('@google-cloud/certificate-manager');
 
 function main() {
   const certificateManagerClient =
